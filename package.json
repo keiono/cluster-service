@@ -1,0 +1,14 @@
+{
+  "name": "cluster-layout",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "description": "Applies a cluster layout to a network",
+  "repository": "https://github.com/idekerlab/cluster-layout",
+  "author": "Eric Sage",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cxmate": "^0.1.0",
+    "d3-hierarchy": "^1.1.5"
+  }
+}

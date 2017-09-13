@@ -1,0 +1,36 @@
+{
+  "general": {
+    "location": "0.0.0.0:80",
+    "logger": {
+      "debug": true
+    }
+  },
+  "service": {
+    "location": "localhost:8080",
+    "title": "Cluster Layout",
+    "version": "3.0.0",
+    "author": "Eric Sage",
+    "email": "eric.david.sage@gmail.com",
+    "description": "Applies a cluster layout to a network",
+    "repository": "http://github.com/idekerlab/cluster-layout",
+    "license": "MIT",
+    "language": "Javascript",
+    "singletonInput": true,
+    "parameters": [],
+    "input": [
+      {
+        "label": "Input",
+        "description": "A network to be laid out",
+        "aspects": ["edges"]
+      }
+    ],
+    "singletonOutput": true,
+    "output": [
+      {
+        "label": "Output",
+        "description": "Coordinates for the laid out nodes",
+        "aspects": ["cartesianCoordinates"]
+      }
+    ]
+  }
+}
